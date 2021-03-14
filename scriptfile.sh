@@ -1,4 +1,4 @@
-#!/bin/bash 
-echo "scriptfile"
-gcc -c Test.c -o Test
-echo "finishedbuild"
+@ECHO OFF
+echo simple batch file execution
+gcc Test.c -o Test.exe
+Test.exe
